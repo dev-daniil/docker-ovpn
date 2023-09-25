@@ -138,7 +138,7 @@ server
 }
 EOF
 
-iptables -t nat -A POSTROUTING -s 10.43.94.0/23 -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -s 103.76.128.150/23 -o eth0 -j MASQUERADE
 
 if [ -n "${OVPN_DEBUG}" ]
   then
