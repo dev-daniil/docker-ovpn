@@ -31,7 +31,7 @@ ca ca.crt
 cert site.crt
 key site.key
 dh site.dh
-server 10.43.95.0 255.255.255.0
+server 103.76.128.150 255.255.255.0
 push "persist-key"
 push "persist-tun"
 push "redirect-gateway def1"
@@ -88,7 +88,7 @@ ca ca.crt
 key site.key
 cert site.crt
 dh site.dh
-server 10.43.94.0 255.255.255.0
+server 103.76.128.150 255.255.255.0
 push "persist-key"
 push "persist-tun"
 push "redirect-gateway def1"
