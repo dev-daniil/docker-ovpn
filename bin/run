@@ -53,7 +53,6 @@ plugin /usr/lib/openvpn/radiusplugin.so /etc/openvpn/radius443.conf
 username-as-common-name
 client-cert-not-required
 log $TCPLOG
-ccd-exclusive
 suppress-timestamps
 verb $VERBOSE
 mute 10
@@ -113,7 +112,6 @@ username-as-common-name
 client-cert-not-required
 log $UDPLOG
 suppress-timestamps
-ccd-exclusive
 verb $VERBOSE
 mute 10
 explicit-exit-notify 1
